@@ -46,7 +46,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive # Clone the submodule so we can query xmake on the entire project.
-          token: ${{ github.token }}
+          token: ${{ secrets.UEPSEUDO_PAT }}
 
         # Build modes are supplied by xmake, so we have to download and setup the xmake environment.
       - name: Setup xmake
