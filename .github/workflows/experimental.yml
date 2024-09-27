@@ -30,7 +30,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0 # needed to get commits since last tag
-          token: ${{ secrets.UEPSEUDO_PAT }}
+          token: ${{ github.token }}
 
       - name: Setup Python
         uses: actions/setup-python@v4
