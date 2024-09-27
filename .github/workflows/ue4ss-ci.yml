@@ -7,8 +7,6 @@ permissions:
     pull-requests: write # For adding comments to PR.
 on:
   pull_request:
-    branches:
-        - 'main'
     paths-ignore:
         - 'README.md'
         - '.github/workflows/pushdocs.yml'
