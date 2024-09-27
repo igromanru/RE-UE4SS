@@ -54,6 +54,7 @@
     - [FWeakObjectPtr](./lua-api/classes/fweakobjectptr.md)
   - [Global Functions]()
     - [print](./lua-api/global-functions/print.md)
+    - [CreateBlankObject](./lua-api/global-functions/createblankobject.md)
     - [FName](./lua-api/global-functions/fname.md)
     - [FText](./lua-api/global-functions/ftext.md)
     - [IterateGameDirectories](./lua-api/global-functions/iterategamedirectories.md)

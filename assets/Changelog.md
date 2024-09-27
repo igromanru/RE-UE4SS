@@ -21,6 +21,7 @@ Added search filter: `IncludeClassNames`. ([UE4SS #472](https://github.com/UE4SS
 ### UHT Dumper
 
 ### Lua API
+Added global function `CreateBlankObject`, which returns an empty UObject. ([UE4SS #652](https://github.com/UE4SS-RE/RE-UE4SS/issues/652)) 
 
 ### C++ API
 Key binds created with `UE4SSProgram::register_keydown_event` end up being duplicated upon mod hot-reload.  
@@ -62,6 +63,8 @@ The following search filters now allow multiple values, with each value separate
 `print` now behaves like vanilla Lua (can now accept zero, one, or multiple arguments of any type) ([UE4SS #423](https://github.com/UE4SS-RE/RE-UE4SS/pull/423)) - Lyrth
 
 The callback of `NotifyOnNewObject` can now optionally return `true` to unregister itself ([UE4SS #432](https://github.com/UE4SS-RE/RE-UE4SS/pull/432)) - Lyrth
+
+Fixed `FindFirstOf` return type annotation in `Types.lua` to signal that the return value will never be nil. ([UE4SS #652](https://github.com/UE4SS-RE/RE-UE4SS/issues/652))
 
 ### C++ API
 

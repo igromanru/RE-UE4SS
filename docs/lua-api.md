@@ -110,6 +110,8 @@ This is an overall list of API definitions available in UE4SS. For more readable
     print(any... Message)
         - Does not have the capability to format. Use 'string.format' if you require formatting.
     
+    CreateBlankObject() -> UObject
+
     StaticFindObject(string ObjectName) -> { UObject | AActor | nil }
     StaticFindObject(UClass Class=nil, UObject InOuter=nil, string ObjectName, bool ExactClass=false)
         - Maps to https://docs.unrealengine.com/4.26/en-US/API/Runtime/CoreUObject/UObject/StaticFindObject/
